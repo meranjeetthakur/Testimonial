@@ -1,0 +1,19 @@
+{
+    "name": "shoutlara/testimonial",
+    "description": "This is test testimonial package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ranjeet",
+            "email": "meranjeetthakur@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ShoutLara\\Testimonial\\": "src/"
+        }
+    }
+}
