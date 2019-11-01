@@ -32,7 +32,7 @@ class TestimonialServiceProvider extends ServiceProvider
         ]);
         
         $this->publishes([
-        __DIR__.'/views' => base_path('resources/views/shoutlara/testimonial'),
+        __DIR__.'/views' => base_path('resources/views/vendor/testimonial'),
         ]);
     }
 }
